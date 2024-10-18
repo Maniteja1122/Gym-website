@@ -1,0 +1,98 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: white;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 950px;
+    margin: 0;
+    padding: 0px;
+  }
+  .left {
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  .left img {
+    width: 135px;
+    border-radius: 8px;
+  }
+  .left div {
+    line-height: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .center {
+    display: block;
+    width: 65%;
+    margin: 30px auto;
+  }
+
+  .right {
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 45px;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    font-size: 25px;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 35px 25px;
+  }
+
+  .navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: #7fff00;
+  }
+  .btn {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 10px;
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: pink;
+  }
+  .container {
+    border: 1px solid white;
+    margin: 100px 80px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 20px;
+  }
+  .fgroup input {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 2px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .container button {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+  }
